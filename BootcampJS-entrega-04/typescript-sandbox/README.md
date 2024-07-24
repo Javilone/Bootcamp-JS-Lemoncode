@@ -20,7 +20,8 @@ Como challenge puedes añadir una caja de texto y un botón que permita cambiar 
 Challenge:
 Sea el número que sea, lo quiero mostrar siempre con dos digitos (es decir el 1 -> 01, el 2 -> 02, el 10 -> 10, el 11 -> 11, etc), investiga como puedes formatear un número para que siempre tenga dos dígitos.
 
+![Captura de pantalla 2024-07-24 a las 20 53 58](https://github.com/user-attachments/assets/2d711a4e-91d6-4dd4-a6a0-3c430ac365f2)
 
-![Captura de pantalla 2024-04-22 a las 11 46 23](https://github.com/Javilone/BootcampJS-entrega04/assets/97972589/b1315c46-48ca-4463-89c5-348a262f21de)
-![Captura de pantalla 2024-04-19 a las 12 56 48](https://github.com/Javilone/BootcampJS-entrega04/assets/97972589/4818a6e1-349f-444b-8a90-9729207977d1)
-![Captura de pantalla 2024-04-19 a las 12 57 07](https://github.com/Javilone/BootcampJS-entrega04/assets/97972589/08c19fdf-093c-4545-93fb-3c14e114fa1a)
+![Captura de pantalla 2024-07-24 a las 20 54 15](https://github.com/user-attachments/assets/48f96ca1-3eb3-4347-8a76-5deb2b586b45)
+
+![Captura de pantalla 2024-07-24 a las 20 54 23](https://github.com/user-attachments/assets/8af751d1-96c9-4201-93cc-e6060db5641e)
