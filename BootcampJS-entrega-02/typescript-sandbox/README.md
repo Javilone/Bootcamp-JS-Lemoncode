@@ -12,10 +12,8 @@ Calcula cuánto tendría que pagar cada comensal para dividir los costos de mane
 
 Utiliza JavaScript para hacer el cálculo y mostrar el resultado por consola.
 
+![Captura de pantalla 2024-07-24 a las 20 46 47](https://github.com/user-attachments/assets/c4522b1d-ecde-4199-b698-046370c319e6)
 
-![Captura de pantalla 2024-04-16 a las 9 07 29](https://github.com/Javilone/BootcampJS-entrega-02/assets/97972589/5302c5f6-095a-4726-b5cb-93b3782667e8)
 
-
-![Captura de pantalla 2024-04-16 a las 8 59 27](https://github.com/Javilone/BootcampJS-entrega-02/assets/97972589/9f97f012-5dfe-4bfa-b29a-69a62245d8cc)
-
+![Captura de pantalla 2024-07-24 a las 20 46 55](https://github.com/user-attachments/assets/2a8fa547-c236-4b68-a82b-460301984e73)
 
