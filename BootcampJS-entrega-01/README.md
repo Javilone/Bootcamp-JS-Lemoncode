@@ -4,20 +4,19 @@ Entrega 1 del bootcamp JavaScript y TypeScript de Lemoncode.
 ### Ejercicio de maquetación sin ninguna navegación. 
 
 #### Página principal.
-![Captura de pantalla 2024-04-15 a las 12 25 45](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/f731cf3f-ddf9-4dd7-9a88-c3187b26a2e0)
+![Captura de pantalla 2024-07-24 a las 20 40 20](https://github.com/user-attachments/assets/cedb5f10-b8dd-4dc7-81ec-72e1b6b97c1d)
+
 
 #### Efectos en elementos bajo el cursor.
-![Captura de pantalla 2024-04-15 a las 12 43 07](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/e745b4d3-8293-42f5-b920-99e7381772f2)
+![Captura de pantalla 2024-07-24 a las 20 40 59](https://github.com/user-attachments/assets/0a865cc8-1bce-4fbe-93e3-e2f84d0a727d)
 
-
-![Captura de pantalla 2024-04-15 a las 12 53 47](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/6ecf52a6-ca70-4d1d-a578-c6228fd4fbae)
-
-
-![Captura de pantalla 2024-04-15 a las 12 53 50](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/b76d1e15-865a-4840-9ee5-d36cf98aabb1)
+![Captura de pantalla 2024-07-24 a las 20 41 36](https://github.com/user-attachments/assets/5c28efac-185f-408a-8d94-df9ad9092ceb)
 
 #### Versión responsive.
-![Captura de pantalla 2024-04-15 a las 12 26 01](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/dc0ffeec-5d08-4374-869e-3bb59ea090e3)
+![Captura de pantalla 2024-07-24 a las 20 42 16](https://github.com/user-attachments/assets/3bcc43ef-3ccc-422c-88b4-1e0c76641ea3)
+
 
 #### Pie de página en versión responsive
-![Captura de pantalla 2024-04-15 a las 12 26 04](https://github.com/Javilone/BootcampJS-entrega-01/assets/97972589/7f719a52-7035-4367-85c0-574b5f075eb2)
+![Captura de pantalla 2024-07-24 a las 20 43 00](https://github.com/user-attachments/assets/582f63f9-3d4f-4f96-982f-34d572fe7c84)
+
 
