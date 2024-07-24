@@ -35,6 +35,8 @@ El juego de las siete y media es un juego de cartas español que se juega tradic
 ### Para simplificar la implementación del juego sólo vamos a mostrar cartas del palo de copas:
 #### Es importante recordar que las cartas numéricas valen su valor nominal, es decir, el As (uno de cada palo) vale 1 punto, las cartas del 2 al 7 valen su valor nominal y las figuras (sota, caballo y rey) valen medio punto cada una.
 
-<img width="1434" alt="Captura de pantalla 2024-06-06 a las 19 09 29 (2)" src="https://github.com/Javilone/BootcampJS-entrega05-b/assets/97972589/9345eaee-0e68-4ffd-b66c-2a2d7bb845b6">
-<img width="1434" alt="Captura de pantalla 2024-06-06 a las 19 09 24 (2)" src="https://github.com/Javilone/BootcampJS-entrega05-b/assets/97972589/59c52ac6-293f-4e28-9e95-259be5f14da8">
-<img width="1431" alt="Captura de pantalla 2024-06-06 a las 19 09 00 (2)" src="https://github.com/Javilone/BootcampJS-entrega05-b/assets/97972589/b245dfe4-4a5b-491e-bf8e-34aae0c9840c">
+![Captura de pantalla 2024-07-24 a las 20 56 55](https://github.com/user-attachments/assets/03b5a126-a6a6-4c33-acce-a9043d3fa93b)
+
+![Captura de pantalla 2024-07-24 a las 20 57 09](https://github.com/user-attachments/assets/acac6d0a-4d4d-4072-a12b-05cf967681ca)
+
+![Captura de pantalla 2024-07-24 a las 20 57 15](https://github.com/user-attachments/assets/8ae484f8-8383-46b2-9e7b-ca95b05d21c2)
