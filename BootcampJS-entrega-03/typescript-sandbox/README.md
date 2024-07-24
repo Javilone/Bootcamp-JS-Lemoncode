@@ -31,3 +31,4 @@ Queremos mostrar cada grupo por consola, el nombre del grupo de música queremos
 
 **La información** para la resolución de esta entrega fue obtenida de:
 <a href="https://www.telerik.com/blogs/how-to-style-console-log-contents-in-chrome-devtools" target="_blank">esta página web</a>
+![Captura de pantalla 2024-07-24 a las 20 52 28](https://github.com/user-attachments/assets/50e87b9f-3830-413e-bc20-2132a91d075a)
