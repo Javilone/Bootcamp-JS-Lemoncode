@@ -1,5 +1,6 @@
 # BootcampJS-entrega06
-### Refactor del código de la <a href="https://github.com/Javilone/BootcampJS-entrega05-b.git">entrega 5</a>.
+
+### Refactor del código de la <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-05-b">entrega 5</a>.
 
 En esta práctica el código ha sido refactorizado para que sea más mantenible y reutilizable, siguiendo los mismos principios aplicados en la <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-05-b">entrega 5</a>.
 

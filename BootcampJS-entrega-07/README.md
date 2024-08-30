@@ -1,7 +1,8 @@
-# BootcampJS-entrega06
-### Refactor del código de la <a href="https://github.com/Javilone/BootcampJS-entrega05-b.git">entrega 5</a>.
+# BootcampJS-entrega07
 
-En esta práctica el código ha sido refactorizado para que sea más mantenible y reutilizable, siguiendo los mismos principios aplicados en la <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-05-b">entrega 5</a>.
+### UNIT TESTING - PRUEBAS UNITARIAS del código de la <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-06">entrega 6</a>.
+
+En esta práctica se han hecho <b>pruebas unitarias</b> utilizando <b>Vitest</b> sobre el código de la <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-06">entrega 6</a>.
 
 ## https://sietemediab-javilonedevs-projects.vercel.app
 
