@@ -14,4 +14,6 @@
 
 <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-05-b">Entrega 5 - Juego de las Siete y 1/2</a>
 
-<a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-06">Entrega 5 - Refactorizando el Juego de las Siete y 1/2</a>
+<a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-06">Entrega 6 - Refactorizando el Juego de las Siete y 1/2</a>
+
+<a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-07">Entrega 7 - UNIT TESTING (Siete y 1/2)</a>
