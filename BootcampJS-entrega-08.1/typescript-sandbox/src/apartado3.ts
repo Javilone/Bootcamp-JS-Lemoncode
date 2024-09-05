@@ -10,7 +10,7 @@ export const reasignarAMedicoFamilia = (
 
   for (let i = 0; i < pacientes.length; i++) {
     if (pacientes[i].especialidad === "Pediatra") {
-      let pacienteCopia = { ...pacientes[i] };
+      const pacienteCopia = { ...pacientes[i] };
       pacienteCopia.especialidad = "Medico de familia";
       reasignados = [...reasignados, pacienteCopia];
     }
