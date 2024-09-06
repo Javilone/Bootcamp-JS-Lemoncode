@@ -2,6 +2,9 @@
 
 import { Pacientes } from "./model";
 
-const HayPacientesDePediatria = (pacientes: Pacientes[]): boolean => {
-  // Tu implementación aquí :)
+export const hayPacientesDePediatria = (pacientes: Pacientes[]): boolean => {
+  const hayPacientes: boolean = pacientes.some((paciente) => {
+    return paciente.especialidad === "Pediatra";
+  });
+  return hayPacientes;
 };
