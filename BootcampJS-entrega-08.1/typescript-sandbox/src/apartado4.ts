@@ -5,11 +5,9 @@ import { Pacientes } from "./model";
 
 export const hayPacientesDePediatria = (pacientes: Pacientes[]): boolean => {
   let hayPaciente: boolean = false;
-  let totalPacientes: Pacientes[] = [];
 
   for (let i = 0; i < pacientes.length; i++) {
     if (pacientes[i].especialidad === "Pediatra") {
-      totalPacientes = [...totalPacientes, pacientes[i]];
       hayPaciente = true;
       break;
     }
