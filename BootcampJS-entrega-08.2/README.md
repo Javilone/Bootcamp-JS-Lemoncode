@@ -1,6 +1,6 @@
-## Módulo 8 - Laboratorio 8.1 Bucles
+## Módulo 8 - Laboratorio 8.2 Array Methods
 
-El objetivo de estos ejercicios es que te familiarices con los bucles for y while, no implementes arrays methods, estos los veremos en el siguiente laboratorio.
+¿Te acuerdas del curro que te metiste en el laboratorio pasado? Sí, la práctica de los hospitales, pues ahora te toca implementarla con array methods, verás que bien que queda con esta nueva aproximación.
 
 ### Introducción
 
