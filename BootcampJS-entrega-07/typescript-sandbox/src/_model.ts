@@ -1,17 +1,14 @@
 // Definiciones de datos y estructuras que hacen falta para almacenar el estado de la partida
 
 // VARIABLES DE ALMACENAMIENTO
-export const partida: Partida = {
+export const game: Game = {
   totalPoints: 0,
-  estado: "TE_HAS_PASADO",
+  state: "TE_HAS_PASADO",
 };
 
-export type EstadoPartida =
-  | "POR_DEBAJO_MAXIMO"
-  | "JUSTO_MAXIMA"
-  | "TE_HAS_PASADO";
+export type gameState = "POR_DEBAJO_MAXIMO" | "JUSTO_MAXIMA" | "TE_HAS_PASADO";
 
-interface Partida {
+interface Game {
   totalPoints: number;
-  estado: EstadoPartida;
+  state: gameState;
 }

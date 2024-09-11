@@ -5,7 +5,7 @@
 // motor.ts <===== ui.ts //
 //-----------------------//
 
-import { partida } from "./_model";
+import { game } from "./_model";
 import {
   getRandomNumber,
   getCard,
@@ -76,7 +76,7 @@ export const scoreDisplay = (): void => {
     score !== null &&
     score !== undefined
   ) {
-    score.innerHTML = partida.totalPoints.toString();
+    score.innerHTML = game.totalPoints.toString();
   }
 };
 
@@ -122,15 +122,15 @@ export const gameStatus = (): string => {
   let statusMessage: string = "";
 
   if (obtenerEstadoPartida() === "JUSTO_MAXIMA") {
-    statusMessage = `¡Lo has clavado! ¡Enhorabuena! Has conseguido ${partida.totalPoints} puntos!`;
+    statusMessage = `¡Lo has clavado! ¡Enhorabuena! Has conseguido ${game.totalPoints} puntos!`;
     giveCardButtonOff();
     giveUpButtonOff();
   } else if (obtenerEstadoPartida() === "TE_HAS_PASADO") {
-    statusMessage = `¡Te pasaste! Has obtenido ${partida.totalPoints} puntos.`;
+    statusMessage = `¡Te pasaste! Has obtenido ${game.totalPoints} puntos.`;
     giveCardButtonOff();
     giveUpButtonOff();
   } else {
-    statusMessage = partida.totalPoints.toString();
+    statusMessage = game.totalPoints.toString();
   }
   return statusMessage;
 };
@@ -161,7 +161,7 @@ export const getOneMoreTime = (): void => {
   const playedCard: HTMLImageElement = createCard(cardUrl);
   drawCard(playedCard);
   let gameStatus = `Pues que habrías sacado un ${cardValue}.<br>Y en total tendrías ${
-    partida.totalPoints + cardValue
+    game.totalPoints + cardValue
   } puntos`;
   setGiveUpStatus(gameStatus);
 };
@@ -207,16 +207,16 @@ export const setGiveUpStatus = (gameStatus: string): void => {
 // Evalúa el mensaje de estado de la partida al momento de plantarse
 export const getGiveUpStatus = (): string => {
   giveUpButtonOff();
-  if (partida.totalPoints <= 4) {
+  if (game.totalPoints <= 4) {
     return `Has sido muy conservador. <br><p>Pulsa "Una más" para saber qué habrías sacado.</p><button id="one-more" class="play-btn">Una más</button>`;
   }
-  if (partida.totalPoints >= 4.5 && partida.totalPoints <= 5.5) {
+  if (game.totalPoints >= 4.5 && game.totalPoints <= 5.5) {
     return `Te ha entrado el canguelo ¿eh? <br><p>Pulsa "Una más" para saber qué habrías sacado.</p><button id="one-more" class="play-btn">Una más</button>`;
   }
-  if (partida.totalPoints >= 6 && partida.totalPoints <= 7) {
+  if (game.totalPoints >= 6 && game.totalPoints <= 7) {
     return `Casi casi...<br><p> Pulsa "Una más" para saber qué habrías sacado.</p><button id="one-more" class="play-btn">Una más</button>`;
   }
-  return partida.totalPoints.toString();
+  return game.totalPoints.toString();
 };
 
 // Inicia el proceso de plantar la partida

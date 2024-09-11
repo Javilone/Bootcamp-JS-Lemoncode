@@ -1,4 +1,4 @@
-import { EstadoPartida, partida } from "./_model";
+import { gameState, game } from "./_model";
 import { getCard, getCardValue, obtenerEstadoPartida } from "./_motor";
 import { vi } from "vitest";
 
@@ -6,11 +6,11 @@ describe("Pruebas laboratorio", () => {
   // 1 - Identifica las funciones y componentes que determinan si un jugador ha ganado la partida o no.
   it("Compruebo que se gana la partida cuando es 7.5", () => {
     // Arrange
-    const expectedResult: EstadoPartida = "JUSTO_MAXIMA";
-    vi.spyOn(partida, "totalPoints", "get").mockReturnValue(7.5);
+    const expectedResult: gameState = "JUSTO_MAXIMA";
+    vi.spyOn(game, "totalPoints", "get").mockReturnValue(7.5);
 
     // Act
-    const result: EstadoPartida = obtenerEstadoPartida();
+    const result: gameState = obtenerEstadoPartida();
 
     // Assert
     expect(result).toBe(expectedResult);
