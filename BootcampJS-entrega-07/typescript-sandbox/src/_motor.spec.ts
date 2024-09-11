@@ -1,18 +1,19 @@
-import { points } from "./_model";
-import { setPoints, getCard, getCardValue } from "./_motor";
+import { EstadoPartida, partida } from "./_model";
+import { getCard, getCardValue, obtenerEstadoPartida } from "./_motor";
+import { vi } from "vitest";
 
-describe("setPoints", () => {
+describe("Pruebas laboratorio", () => {
   // 1 - Identifica las funciones y componentes que determinan si un jugador ha ganado la partida o no.
-  it("Pruebo que setPoints funciona como es debido cuando es 7.5", () => {
+  it("Compruebo que se gana la partida cuando es 7.5", () => {
     // Arrange
-    const mockPoints: number = 7.5;
-    const pointsToWin: number = 7.5;
+    const expectedResult: EstadoPartida = "JUSTO_MAXIMA";
+    vi.spyOn(partida, "totalPoints", "get").mockReturnValue(7.5);
 
     // Act
-    setPoints(mockPoints);
+    const result: EstadoPartida = obtenerEstadoPartida();
 
     // Assert
-    expect(points.totalPoints).toBe(pointsToWin);
+    expect(result).toBe(expectedResult);
   });
 
   /* 2 - Habrás tenido que generar una función que genere un número aleatorio entre 0 y 10 y en el caso de 
@@ -22,10 +23,21 @@ describe("setPoints", () => {
     const higherThanSeven: number = 8;
 
     // Act
-    const test: number = getCard(higherThanSeven);
+    const testA: number = getCard(higherThanSeven);
 
     // Assert
-    expect(test).toBe(higherThanSeven + 2);
+    expect(testA).toBe(higherThanSeven + 2);
+  });
+
+  it("Pruebo que 'getCard' devuelva el mismo valor si el número es inferior a 7", () => {
+    // Arrange
+    const lowerThanSeven: number = 5;
+
+    // Act
+    const testB: number = getCard(lowerThanSeven);
+
+    // Assert
+    expect(testB).toBe(lowerThanSeven);
   });
 
   /* En el caso de que el jugador haya obtenido una carta, debemos de haber creado una función que devuelva 
