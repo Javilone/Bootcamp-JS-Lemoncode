@@ -19,3 +19,5 @@
 <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-07">Entrega 7 - UNIT TESTING (Siete y 1/2)</a>
 
 <a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-08.1">Entrega 8.1 - Bucles (y más testing)</a>
+
+<a href="https://github.com/Javilone/Bootcamp-JS-Lemoncode/tree/main/BootcampJS-entrega-08.2">Entrega 8.2 - Array methods (Entrega 8.1 con array methods)</a>
