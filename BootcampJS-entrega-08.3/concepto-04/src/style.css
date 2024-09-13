@@ -95,3 +95,35 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* CÓDIGO ANTERIOR PROCEDENTE DEL SANDBOX DE LEMONCODE */
+/* Estilos provisionales para las pruebas de concepto */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 170px;
+  height: 170px;
+  background-color: lightgreen;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.cardStyle {
+  width: 170px;
+  border-radius: 20px;
+  animation: flipCard 0.5s ease-in-out forwards;
+}
+
+@keyframes flipCard {
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    background-color: rgb(185, 137, 185);
+    transform: rotateY(0deg);
+  }
+}
