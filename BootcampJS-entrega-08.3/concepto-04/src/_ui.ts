@@ -1,51 +1,43 @@
-// Inicio del juego.
-export const mainGame = () => {
-  const mainDiv = document.getElementById("mainDiv") as HTMLDivElement;
-
-  if (mainDiv && mainDiv instanceof HTMLDivElement) {
-    paintMainDiv(mainDiv);
-    setGameGrid(mainDiv);
-  }
-};
-
 // Pinto el contenedor principal.
-const paintMainDiv = (mainDiv: HTMLDivElement) => {
-  mainDiv.classList.add("mainDiv");
-};
+export const paintMainDiv = () => {
+  const mainDiv = document.getElementById("mainDiv");
 
-// Establezco la cuadrícula.
-const setGameGrid = (mainDiv: HTMLDivElement) => {
-  for (let i = 0; i < 2; i++) {
-    paintChildDiv(mainDiv);
+  if (mainDiv !== null && mainDiv !== undefined) {
+    mainDiv.classList.add("mainDiv");
   }
+  return mainDiv;
 };
 
-// Pinta los contenedores hijos.
-const paintChildDiv = (mainDiv: HTMLDivElement) => {
-  const childDiv = document.createElement("div");
-  childDiv.classList.add("childDiv");
-  mainDiv?.appendChild(childDiv);
-  childDiv.addEventListener("click", () => appendImmage(childDiv));
+// Pinta los contenedores hijos con escuchador.
+export const paintChildDiv = (mainDiv: HTMLDivElement, value: number) => {
+  for (let i = 0; i < value; i++) {
+    const childDiv = document.createElement("div");
+
+    childDiv.classList.add("childDiv");
+    childDiv.addEventListener("click", () => appendImage(childDiv));
+    mainDiv.appendChild(childDiv);
+  }
 };
 
 // Agrego una imagen de animal si no la tiene.
-const appendImmage = (childDiv: HTMLDivElement) => {
+const appendImage = (childDiv: HTMLDivElement) => {
+  const image: HTMLImageElement = document.createElement("img");
+  const randomAnimal = getRandomAnimal();
+
   if (childDiv.querySelector("img")) {
-    return;
+    return console.log("Ya tiene imagen");
   }
 
-  const image = document.createElement("img");
   image.classList.add("cardStyle");
-  image.src = getRandomAnimal();
-
+  image.src = randomAnimal;
   childDiv.appendChild(image);
 };
 
-// Obtengo cual será la imagen aleatoria.
-const getRandomAnimal = () => {
-  // código provisional para este concepto
+// Obtengo cual será la imagen aleatoria. ::: CÓDIGO PROVISIONAL PARA ESTE CONCEPTO :::
+export const getRandomAnimal = () => {
   const animalArray: string[] = ["1", "2"];
   let randomIndex = Math.floor(Math.random() * animalArray.length);
   const randomAnimal = `src/images/${animalArray[randomIndex]}.svg`;
+
   return randomAnimal;
 };
